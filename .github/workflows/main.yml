@@ -1,8 +1,9 @@
 name: Main
 
 on:
+workflow_dispatch‎
   push:
-    branches: [ master ]
+    branches: [ wang ]
     paths-ignore:
       - '.github/ISSUE_TEMPLATE/**'
       - '.github/workflows/issue.yml'
